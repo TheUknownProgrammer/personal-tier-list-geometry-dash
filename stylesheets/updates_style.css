@@ -1,0 +1,12 @@
+#Updates ul {
+    list-style-type: none;
+    text-align: left;
+    width: 300px;
+    word-wrap: break-word;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Updates ul li::before {
+    content: "* ";
+}

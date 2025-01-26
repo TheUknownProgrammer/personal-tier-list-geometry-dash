@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../resources/Site-background-light.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+a {
+    color: lightblue;
+}
+hr {
+    background-image: url("../resources/laser.png");
+    background-size: contain;
+    border: 0;
+    height: 18px;
+    background-position: left top;
+}
+#intro {
+    padding: 20px;
+    /*background-color: lightblue;*/
+    background-image: url("../resources/background intro.png");
+    background-position: center;
+}
+#intro .gd_title {
+    width: 245px; /*165px;*/
+    height: 42px; /* 42px */
+    border: 2.5px solid white;
+    border-radius: 5px;
+    /*margin-bottom: 20px;*/
+    display: inline-block;
+}
+#intro h1 {
+    margin-top: 20px;
+    color: #00FF1A;
+    background-color: #30BA4E;
+    text-decoration: underline;
+    width: fit-content;
+    margin-right: auto;
+    margin-left:auto;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+}
+#intro .nav_bar ul {
+    margin: 15px;
+    user-select: none;
+    list-style-type: none;
+}
+.nav_bar ul li {
+    padding: 15px;
+    display: inline-block;
+}
+.nav_bar ul li a:hover {
+    color: rgb(0, 255, 0); /* green */
+    /*text-decoration: underline;*/
+}
+.nav_bar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.2s;
+    font-family: Impact, fantasy;
+    letter-spacing: 0.5px;
+}
+.selected_link {
+    color: rgb(0, 255, 0) !important; /* green */
+    text-decoration: underline !important;
+}
+/*.nav_bar ul li:first-child a {
+    color: green;
+}*/
+#container {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.content_wrapper {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content_font {
+    font-family: "Open Sans";
+    font-size: 30px;
+}
+.content_wrapper_container {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px black;
+    border: 5px solid lightblue;
+    background-image: repeating-linear-gradient(15deg, blue 0, blue 12.5px, rgb(20, 27.5, 255) 12.5px, rgb(20, 27.5, 255) 25px); /* linear-gradient(blue,rgb(30, 30, 255),rgb(50, 50, 255)) */
+}
+footer {
+    color: white;
+    padding: 50px;
+}

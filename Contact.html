@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <meta name="author" content="TheUnknownProgrammer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheets/general_style.css" />
+    <link rel="stylesheet" href="stylesheets/contact_style.css" />
+    <link rel="icon" href="resources/demon-favicon.png" />
+    <script src="scripts/contact_form.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="intro">
+        <a
+          href="https://store.steampowered.com/app/322170/Geometry_Dash/"
+          target="_blank"
+          ><img
+            src="resources/gd logo.jpg"
+            class="gd_title"
+            title="click to visit the page of geometry dash in steam."
+        /></a>
+        <h1>Contact.</h1>
+        <nav class="nav_bar">
+          <ul>
+            <li><a href="index.html">Main List</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="#" class="selected_link">Contact</a></li>
+            <li><a href="Updates.html">Updates</a></li>
+          </ul>
+        </nav>
+        <hr />
+      </div>
+
+      <div id="Contact" class="content_wrapper">
+        <img
+          src="resources/geometry-dash-revenue.jpg"
+          alt="geometry-dash-revenue"
+          class="geometry-dash-revenue"
+        />
+        <h1 class="title">Contact</h1>
+        <form
+          name="contact_form"
+          target="_blank"
+          onsubmit="submitContactForm()"
+          method="POST"
+        >
+          <label for="first-name">first name</label><br />
+          <input type="text" name="first-name" id="first-name" required />
+          <br />
+          <label for="last-name">last name</label><br />
+          <input type="text" name="last-name" id="last-name" required />
+          <br />
+          <label for="user-email">email</label><br />
+          <input type="email" name="user-email" id="user-email" required />
+          <br />
+          <label for="user-phone">phone</label><br />
+          <input type="tel" name="user-phone" id="user-phone" />
+          <br />
+          <label for="message">Enter Your Message Here</label>
+          <br />
+          <textarea name="message" id="message" required></textarea>
+          <br />
+          <input type="submit" value="submit" />
+        </form>
+
+        <p id="display"></p>
+      </div>
+
+      <footer>
+        © 2023 by The Unknown Programmer. Proudly created with HTML,CSS,Javascript.
+      </footer>
+    </div>
+  </body>
+</html>

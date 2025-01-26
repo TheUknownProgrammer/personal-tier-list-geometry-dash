@@ -1,0 +1,62 @@
+#Contact {
+    width: fit-content;
+}
+
+#Contact .geometry-dash-revenue {
+    width: 200px;
+}
+
+#Contact .title {
+    color: white;
+    font-size: 30px;
+    font-family: "Open Sans";
+}
+
+form label {
+    text-align: right !important;
+    color: #FE6060;
+    text-transform: capitalize;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+form input,
+textarea {
+    width: 100%;
+    border: 4px solid #FE6060;
+}
+
+form input:hover {
+    border: 4px solid #ff9898;
+}
+
+form textarea {
+    resize: none;
+}
+
+form textarea:hover {
+    border: 4px solid #ff9898;
+}
+
+form {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    cursor: pointer;
+    background-color: #FE6060;
+    padding: 5px;
+    color: white;
+    transition: 0.2s;
+    text-transform: capitalize;
+}
+
+form input[type="submit"]:hover {
+    background-color: white;
+    color: #FE6060;
+}

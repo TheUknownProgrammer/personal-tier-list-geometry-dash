@@ -1,0 +1,27 @@
+video,
+iframe {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    height: 250px;
+}
+
+#list-demons img {
+    width: 500px;
+    height: 300px;
+    border-radius: 2.5px;
+    border: 2.5px solid white;
+    box-shadow: 5px 5px 14px black;
+}
+
+.section_place h2 {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 15px;
+    text-shadow: 4px 3px 6px black;
+}
+
+.section_place img:hover {
+    padding: 10px;
+}

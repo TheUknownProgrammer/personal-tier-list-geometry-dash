@@ -1,0 +1,13 @@
+#About .demon_logo {
+    width: 320px;
+    height: 320px;
+    border: 50px solid transparent;
+    border-image-source: url("../resources/frame.png");
+    border-image-repeat: stretch;
+    border-image-slice: 10%;
+}
+
+#About h2 {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
